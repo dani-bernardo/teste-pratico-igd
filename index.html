@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Teste Prático</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Raleway:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <meta name="it-rating" content="it-rat-cd303c3f80473535b3c667d0d67a7a11" />
+    <meta name="cmsmagazine" content="3f86e43372e678604d35804a67860df7" />
+    <style>
+        .loaded .load-icon {
+            display: block;
+        }
+
+        .loaded * {
+            -webkit-transition: none;
+            -ms-transition: none;
+            transition: none;
+        }
+
+        .load-icon {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: none;
+            z-index: 99999;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #fff;
+        }
+
+        .load-icon:before {
+            content: "";
+            width: 64px;
+            height: 64px;
+            margin: -32px 0 0 -32px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background: url(assets/img/loader.gif) no-repeat left top;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+
+<body class="loaded">
+
+    <div class="load-icon"></div>
+
+    <div class="page-container">
+
+        <!-- BEGIN HEADER -->
+        <header class="header">
+            <div class="header__main">
+                <div class="header__cols">
+                    <div class="header__left">
+                        <div class="header__cols">
+                            <div class="header__col">
+                                <button class="mob-button js-mob-open">
+                                    <span class="mob-button__icon"></span>
+                                </button>
+                            </div>
+                            <div class="header__col">
+                                <a class="logo" href="#">
+                                    <img class="logo__image" src="assets/img/Logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__col header__col_hide-mob">
+                                <nav class="header-nav">
+                                    <ul class="header-nav__list">
+                                        <li class="header-nav__item">
+                                            <a class="header-nav__link" href="index.html">Início</a>
+                                        </li>
+                                        <li class="header-nav__item js-nav-item active">
+                                            <a class="header-nav__link" href="#form">Inscrições</a>
+
+                                        </li>
+                                        <li class="header-nav__item js-nav-item">
+                                            <a class="header-nav__link">Data: XX/XX </a>
+
+                                        </li>
+                                        
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <div class="hide-mob js-mob-hide">
+            <div class="hide-mob__bg">
+                <button class="hide-mob__close close-button js-mob-close"></button>
+                <div class="hide-mob__mask js-mob-close"></div>
+                <ul class="mob-nav">
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="index.html">Home</a>
+                    </li>
+                    <li class="mob-nav__item js-slidedown">
+                        <a class="mob-nav__link js-slidedown-button" href="about.html">
+                            <span class="mob-nav__link">Pages</span>
+                        </a>
+
+                    </li>
+                    <li class="mob-nav__item js-slidedown">
+                        <a class="mob-nav__link js-slidedown-button" href="#">
+                            <span class="mob-nav__link">Shop</span>
+                        </a>
+
+                    </li>
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="contacts.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+
+
+        <main class="main">
+
+          
+            <div class="inner-top">
+                <div class="inner-top__main wrapper">
+                    <div class="inner-top__cols">
+                        <div class="inner-top__left">
+                            <h2 class="inner-top__title">A melhor oferta de Black Friday pra você aprender a fazer muito
+                                dinheiro, e a multiplicar a sua renda</h2>
+                            <div class="breadcrumbs">
+                                <ul class="breadcrumbs__list">
+                                    <li class="breadcrumbs__item">
+                                        <a class="breadcrumbs__link" href="#">Eu, Erico Rocha, vou fazer a oferta mais
+                                            absurda da história do digital, unindo o melhor do marketing digital com o
+                                            melhor das finanças, pra sempre: a Ultra Black Friday Infinita.
+
+                                            A gente abriu uma transmissão explicando cada detalhe da nossa Black Friday
+                                            vitalícia, e você pode assistir agora preenchendo o campo abaixo:</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="inner-top__right">
+
+                            <form>
+                                <div class="login-form ">
+                                    <div class="login-form__top">
+                                        <h2 class="login-form__title">Se inscreva</h2>
+                                        <p class="login-form__text">Fique por dentro da nossa maior oferta de Black
+                                            Friday</p>
+                                    </div>
+                                    <span class="login-form__label">Insira seu E-mail</span>
+                                    <div class="login-form__cols">
+                                        <div class="login-form__col">
+                                            <input class="text-input" type="email" placeholder="E-mail">
+                                        </div>
+
+                                    </div>
+                                    <span class="login-form__label">Número de Whatsapp</span>
+                                    <div class="login-form__cols">
+                                        <div class="login-form__col">
+                                            <input class="text-input" type="tel" placeholder="Whatsapp">
+                                        </div>
+
+                                    </div>
+
+                                    <button class="login-form__button button" type="submit">
+                                        <span class="button__text">Quero participar</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                    <img class="inner-top__bg"
+                        src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                        data-lazy="assets/img/svg/vector-inner-top.svg" alt="">
+                </div>
+            </div>
+           
+            <article class="about-company wrapper">
+                <div class="about-company__top">
+                    <h2 class="about-company__title">Por que você não deveria perder essa transmissão?</h2>
+                    <p class="about-company__text"> Porque nela…</p>
+                </div>
+                <div class="about-company__cols">
+                    <div class="about-company__col">
+                        <section class="about-section">
+
+                            <p class="about-section__text"> • Vamos explicar todos os produtos que você vai levar com
+                                essa oferta – e como cada um deles pode te ajudar a fazer e multiplicar o seu dinheiro
+                                no digital; </br>
+                                • Vamos apresentar os bônus mais extraordinários que uma oferta digital já teve – e que
+                                podem te retornar mais de R$ 3 mil em benefícios;</br>
+                                • Vamos tirar as dúvidas mais frequentes e que podem estar te paralisando hoje de
+                                conquistar sua liberdade.</br></p>
+                            <button class="login-form__button button" type="submit">
+                                <span class="button__text">Eu não vou perder</span>
+                            </button>
+                        </section>
+                    </div>
+                    <div class="about-company__col">
+                        <div class="about-stats">
+                            <h3 class="collection-title">
+
+                                <span class="collection-title__count">R$3.000</span>
+                                <span class="collection-title__plus"></span>
+                                <span class="collection-title__text">em benefícios</span>
+                            </h3>
+                            <img class="about-stats__vector"
+                                src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                                data-lazy="assets/img/svg/vector-about.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="about-company__col">
+                        <div class="about-stats about-stats_bottom">
+
+                            <img src="assets/img/erico.jpg" alt=""
+                                style="position: absolute; width: 100%; z-index: 2; margin-left: 5px;">
+                            <img class="about-stats__vector"
+                                src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                                data-lazy="assets/img/svg/vector-about.svg" alt=""
+                                style="position: absolute; z-index: 1;">
+                        </div>
+                    </div>
+                    <div class="about-company__col">
+
+                        <section class="about-section">
+                            <h3 class="about-section__title">Conheça seu mentor</h3>
+                            <p class="about-company__text">Erico Rocha</p>
+                            <p class="about-section__text">Empresário que revolucionou o mercado digital do Brasil com
+                                lançamentos, é apaixonado por marketing digital e empreendedorismo.
+
+                                Sua especialidade é ensinar a metodologia por trás dos lançamentos de infoprodutos na
+                                internet, pois ele acredita que esse é o modelo de negócio mais rentável do mundo. Seu
+                                maior objetivo é ajudar empreendedores a atingirem faturamentos de 6, 7 ou até 8 dígitos
+                                em 7 dias consecutivos.
+
+                                O Erico é a principal referência no Brasil e a pessoa que mais formou infoprodutores no
+                                país, tudo surgiu a partir dele.
+
+                                No ano passado, os seus alunos faturaram 1 bilhão de reais.</p>
+                            <button class="login-form__button button" type="submit">
+                                <span class="button__text">Quero ver a Black</span>
+                            </button>
+                        </section>
+                    </div>
+                </div>
+            </article>
+
+                <div id="form" class="login-page">
+                <div class="login-page__all">
+                    <div class="login-page__banner" data-bg="assets/img/form.jpg"></div>
+                    <div class="login-page__main">
+                        <form>
+                            <div class="login-form ">
+                                <div class="login-form__top">
+                                    <h2 class="login-form__title">Formulário de Inscrição</h2>
+
+                                </div>
+                                <span class="login-form__label">Insira seu E-mail</span>
+                                <div class="login-form__cols">
+                                    <div class="login-form__col">
+                                        <input class="text-input" type="email" placeholder="E-mail">
+                                    </div>
+
+                                </div>
+                                <span class="login-form__label">Número de Whatsapp</span>
+                                <div class="login-form__cols">
+                                    <div class="login-form__col">
+                                        <input class="text-input" type="tel" placeholder="Whatsapp">
+                                    </div>
+
+                                </div>
+
+                                <button class="login-form__button button" type="submit">
+                                    <span class="button__text">Quero participar</span>
+                                </button>
+                            </div>
+                        </form>
+                        <img class="login-page__vector"
+                            src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                            data-lazy="assets/img/svg/vector-login.svg" alt="">
+                    </div>
+                </div>
+            </div>
+           
+        
+          
+        
+
+        </main>
+    
+        <footer class="footer">
+            <div class="footer__main wrapper">
+               
+                <div class="footer__bottom">
+                    <div class="footer__cols">
+                        <div class="footer__left">
+                            <span class="copyrights">&copy; Ignição Digital Tecnologia da Informação Ltda. </br> CNPJ: 10.332.345/0001-04 I SHCN CRN 516 CLN 316 - Asa Norte, Brasília - <strong> Telefone: (61) 99131-2815</strong></span>
+                        </div>
+                        <div class="footer__right">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+       
+
+    </div>
+
+
+    <script src="assets/js/libs/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/libs/jquery-migrate-1.4.1.min.js"></script>
+    <script src="assets/js/components/slick.js"></script>
+    <script src="assets/js/components/syotimer.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
